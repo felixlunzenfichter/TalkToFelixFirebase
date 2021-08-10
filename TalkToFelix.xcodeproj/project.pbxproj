@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73E0C26826C30B06007105C7 /* TalkToFelixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0C26726C30B06007105C7 /* TalkToFelixApp.swift */; };
+		73E0C26A26C30B06007105C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0C26926C30B06007105C7 /* ContentView.swift */; };
+		73E0C26C26C30B09007105C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E0C26B26C30B09007105C7 /* Assets.xcassets */; };
+		73E0C26F26C30B09007105C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E0C26E26C30B09007105C7 /* Preview Assets.xcassets */; };
+		73E0C27A26C30B09007105C7 /* TalkToFelixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0C27926C30B09007105C7 /* TalkToFelixTests.swift */; };
+		73E0C28526C30B09007105C7 /* TalkToFelixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0C28426C30B09007105C7 /* TalkToFelixUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73E0C27626C30B09007105C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73E0C25C26C30B06007105C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73E0C26326C30B06007105C7;
+			remoteInfo = TalkToFelix;
+		};
+		73E0C28126C30B09007105C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73E0C25C26C30B06007105C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73E0C26326C30B06007105C7;
+			remoteInfo = TalkToFelix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73E0C26426C30B06007105C7 /* TalkToFelix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToFelix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E0C26726C30B06007105C7 /* TalkToFelixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToFelixApp.swift; sourceTree = "<group>"; };
+		73E0C26926C30B06007105C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73E0C26B26C30B09007105C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73E0C26E26C30B09007105C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73E0C27026C30B09007105C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E0C27526C30B09007105C7 /* TalkToFelixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToFelixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E0C27926C30B09007105C7 /* TalkToFelixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToFelixTests.swift; sourceTree = "<group>"; };
+		73E0C27B26C30B09007105C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E0C28026C30B09007105C7 /* TalkToFelixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToFelixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E0C28426C30B09007105C7 /* TalkToFelixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToFelixUITests.swift; sourceTree = "<group>"; };
+		73E0C28626C30B09007105C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73E0C26126C30B06007105C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E0C27226C30B09007105C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E0C27D26C30B09007105C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73E0C25B26C30B06007105C7 = {
+			isa = PBXGroup;
+			children = (
+				73E0C26626C30B06007105C7 /* TalkToFelix */,
+				73E0C27826C30B09007105C7 /* TalkToFelixTests */,
+				73E0C28326C30B09007105C7 /* TalkToFelixUITests */,
+				73E0C26526C30B06007105C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73E0C26526C30B06007105C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73E0C26426C30B06007105C7 /* TalkToFelix.app */,
+				73E0C27526C30B09007105C7 /* TalkToFelixTests.xctest */,
+				73E0C28026C30B09007105C7 /* TalkToFelixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E0C26626C30B06007105C7 /* TalkToFelix */ = {
+			isa = PBXGroup;
+			children = (
+				73E0C26726C30B06007105C7 /* TalkToFelixApp.swift */,
+				73E0C26926C30B06007105C7 /* ContentView.swift */,
+				73E0C26B26C30B09007105C7 /* Assets.xcassets */,
+				73E0C27026C30B09007105C7 /* Info.plist */,
+				73E0C26D26C30B09007105C7 /* Preview Content */,
+			);
+			path = TalkToFelix;
+			sourceTree = "<group>";
+		};
+		73E0C26D26C30B09007105C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				73E0C26E26C30B09007105C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73E0C27826C30B09007105C7 /* TalkToFelixTests */ = {
+			isa = PBXGroup;
+			children = (
+				73E0C27926C30B09007105C7 /* TalkToFelixTests.swift */,
+				73E0C27B26C30B09007105C7 /* Info.plist */,
+			);
+			path = TalkToFelixTests;
+			sourceTree = "<group>";
+		};
+		73E0C28326C30B09007105C7 /* TalkToFelixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73E0C28426C30B09007105C7 /* TalkToFelixUITests.swift */,
+				73E0C28626C30B09007105C7 /* Info.plist */,
+			);
+			path = TalkToFelixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73E0C26326C30B06007105C7 /* TalkToFelix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E0C28926C30B09007105C7 /* Build configuration list for PBXNativeTarget "TalkToFelix" */;
+			buildPhases = (
+				73E0C26026C30B06007105C7 /* Sources */,
+				73E0C26126C30B06007105C7 /* Frameworks */,
+				73E0C26226C30B06007105C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkToFelix;
+			productName = TalkToFelix;
+			productReference = 73E0C26426C30B06007105C7 /* TalkToFelix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73E0C27426C30B09007105C7 /* TalkToFelixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E0C28C26C30B09007105C7 /* Build configuration list for PBXNativeTarget "TalkToFelixTests" */;
+			buildPhases = (
+				73E0C27126C30B09007105C7 /* Sources */,
+				73E0C27226C30B09007105C7 /* Frameworks */,
+				73E0C27326C30B09007105C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73E0C27726C30B09007105C7 /* PBXTargetDependency */,
+			);
+			name = TalkToFelixTests;
+			productName = TalkToFelixTests;
+			productReference = 73E0C27526C30B09007105C7 /* TalkToFelixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73E0C27F26C30B09007105C7 /* TalkToFelixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E0C28F26C30B09007105C7 /* Build configuration list for PBXNativeTarget "TalkToFelixUITests" */;
+			buildPhases = (
+				73E0C27C26C30B09007105C7 /* Sources */,
+				73E0C27D26C30B09007105C7 /* Frameworks */,
+				73E0C27E26C30B09007105C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73E0C28226C30B09007105C7 /* PBXTargetDependency */,
+			);
+			name = TalkToFelixUITests;
+			productName = TalkToFelixUITests;
+			productReference = 73E0C28026C30B09007105C7 /* TalkToFelixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73E0C25C26C30B06007105C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					73E0C26326C30B06007105C7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					73E0C27426C30B09007105C7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 73E0C26326C30B06007105C7;
+					};
+					73E0C27F26C30B09007105C7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 73E0C26326C30B06007105C7;
+					};
+				};
+			};
+			buildConfigurationList = 73E0C25F26C30B06007105C7 /* Build configuration list for PBXProject "TalkToFelix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73E0C25B26C30B06007105C7;
+			productRefGroup = 73E0C26526C30B06007105C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73E0C26326C30B06007105C7 /* TalkToFelix */,
+				73E0C27426C30B09007105C7 /* TalkToFelixTests */,
+				73E0C27F26C30B09007105C7 /* TalkToFelixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73E0C26226C30B06007105C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E0C26F26C30B09007105C7 /* Preview Assets.xcassets in Resources */,
+				73E0C26C26C30B09007105C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E0C27326C30B09007105C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E0C27E26C30B09007105C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73E0C26026C30B06007105C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E0C26A26C30B06007105C7 /* ContentView.swift in Sources */,
+				73E0C26826C30B06007105C7 /* TalkToFelixApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E0C27126C30B09007105C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E0C27A26C30B09007105C7 /* TalkToFelixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E0C27C26C30B09007105C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E0C28526C30B09007105C7 /* TalkToFelixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73E0C27726C30B09007105C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73E0C26326C30B06007105C7 /* TalkToFelix */;
+			targetProxy = 73E0C27626C30B09007105C7 /* PBXContainerItemProxy */;
+		};
+		73E0C28226C30B09007105C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73E0C26326C30B06007105C7 /* TalkToFelix */;
+			targetProxy = 73E0C28126C30B09007105C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73E0C28726C30B09007105C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73E0C28826C30B09007105C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73E0C28A26C30B09007105C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkToFelix/Preview Content\"";
+				DEVELOPMENT_TEAM = W26GVS4M5S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TalkToFelix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connect.TalkToFelix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73E0C28B26C30B09007105C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkToFelix/Preview Content\"";
+				DEVELOPMENT_TEAM = W26GVS4M5S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TalkToFelix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connect.TalkToFelix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73E0C28D26C30B09007105C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W26GVS4M5S;
+				INFOPLIST_FILE = TalkToFelixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connect.TalkToFelixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToFelix.app/TalkToFelix";
+			};
+			name = Debug;
+		};
+		73E0C28E26C30B09007105C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W26GVS4M5S;
+				INFOPLIST_FILE = TalkToFelixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connect.TalkToFelixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToFelix.app/TalkToFelix";
+			};
+			name = Release;
+		};
+		73E0C29026C30B09007105C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W26GVS4M5S;
+				INFOPLIST_FILE = TalkToFelixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connect.TalkToFelixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkToFelix;
+			};
+			name = Debug;
+		};
+		73E0C29126C30B09007105C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W26GVS4M5S;
+				INFOPLIST_FILE = TalkToFelixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connect.TalkToFelixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkToFelix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73E0C25F26C30B06007105C7 /* Build configuration list for PBXProject "TalkToFelix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E0C28726C30B09007105C7 /* Debug */,
+				73E0C28826C30B09007105C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E0C28926C30B09007105C7 /* Build configuration list for PBXNativeTarget "TalkToFelix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E0C28A26C30B09007105C7 /* Debug */,
+				73E0C28B26C30B09007105C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E0C28C26C30B09007105C7 /* Build configuration list for PBXNativeTarget "TalkToFelixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E0C28D26C30B09007105C7 /* Debug */,
+				73E0C28E26C30B09007105C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E0C28F26C30B09007105C7 /* Build configuration list for PBXNativeTarget "TalkToFelixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E0C29026C30B09007105C7 /* Debug */,
+				73E0C29126C30B09007105C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73E0C25C26C30B06007105C7 /* Project object */;
+}
