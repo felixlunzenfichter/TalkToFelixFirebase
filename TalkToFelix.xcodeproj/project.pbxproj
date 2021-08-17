@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		73E0C26826C30B06007105C7 /* TalkToFelixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0C26726C30B06007105C7 /* TalkToFelixApp.swift */; };
-		73E0C26A26C30B06007105C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0C26926C30B06007105C7 /* ContentView.swift */; };
+		73E0C26A26C30B06007105C7 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0C26926C30B06007105C7 /* ConversationView.swift */; };
 		73E0C26C26C30B09007105C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E0C26B26C30B09007105C7 /* Assets.xcassets */; };
 		73E0C26F26C30B09007105C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E0C26E26C30B09007105C7 /* Preview Assets.xcassets */; };
 		73E0C27A26C30B09007105C7 /* TalkToFelixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0C27926C30B09007105C7 /* TalkToFelixTests.swift */; };
 		73E0C28526C30B09007105C7 /* TalkToFelixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E0C28426C30B09007105C7 /* TalkToFelixUITests.swift */; };
+		73E0C2A526CC4DFC007105C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73E0C2A426CC4DFC007105C7 /* GoogleService-Info.plist */; };
+		73E0C2A626CC4DFC007105C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73E0C2A426CC4DFC007105C7 /* GoogleService-Info.plist */; };
+		73E0C2A726CC4DFC007105C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73E0C2A426CC4DFC007105C7 /* GoogleService-Info.plist */; };
+		80AD114FF9D79B08AB5D722E /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD1D2027B0A7D19FE57FB9 /* Conversation.swift */; };
+		80AD1E5573E186008A8539FB /* ConversationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD1F7D41A7E2C3799DCC2F /* ConversationViewModel.swift */; };
+		8A27D396D645966236475C50 /* Pods_TalkToFelix_TalkToFelixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1840C31A4D6C90B997D509 /* Pods_TalkToFelix_TalkToFelixUITests.framework */; };
+		C11E769357ACD256D9F9A6A3 /* Pods_TalkToFelixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A73A34C7A2E8856D6082FE3 /* Pods_TalkToFelixTests.framework */; };
+		F620632FDCFB03D2D2DDB43E /* Pods_TalkToFelix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E20B416895089925F2CB117 /* Pods_TalkToFelix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A73A34C7A2E8856D6082FE3 /* Pods_TalkToFelixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkToFelixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6CA291D14D1B769A112454 /* Pods-TalkToFelixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToFelixTests.release.xcconfig"; path = "Target Support Files/Pods-TalkToFelixTests/Pods-TalkToFelixTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E1840C31A4D6C90B997D509 /* Pods_TalkToFelix_TalkToFelixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkToFelix_TalkToFelixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5FEB54389817B442F3962F /* Pods-TalkToFelix-TalkToFelixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToFelix-TalkToFelixUITests.debug.xcconfig"; path = "Target Support Files/Pods-TalkToFelix-TalkToFelixUITests/Pods-TalkToFelix-TalkToFelixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E20B416895089925F2CB117 /* Pods_TalkToFelix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkToFelix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		523990E0D854B641F2539CA5 /* Pods-TalkToFelix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToFelix.release.xcconfig"; path = "Target Support Files/Pods-TalkToFelix/Pods-TalkToFelix.release.xcconfig"; sourceTree = "<group>"; };
+		66BB5208B21344143F4B71D6 /* Pods-TalkToFelix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToFelix.debug.xcconfig"; path = "Target Support Files/Pods-TalkToFelix/Pods-TalkToFelix.debug.xcconfig"; sourceTree = "<group>"; };
 		73E0C26426C30B06007105C7 /* TalkToFelix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToFelix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E0C26726C30B06007105C7 /* TalkToFelixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToFelixApp.swift; sourceTree = "<group>"; };
-		73E0C26926C30B06007105C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73E0C26926C30B06007105C7 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
 		73E0C26B26C30B09007105C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E0C26E26C30B09007105C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		73E0C27026C30B09007105C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +60,11 @@
 		73E0C28026C30B09007105C7 /* TalkToFelixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToFelixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E0C28426C30B09007105C7 /* TalkToFelixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToFelixUITests.swift; sourceTree = "<group>"; };
 		73E0C28626C30B09007105C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E0C2A426CC4DFC007105C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80AD1D2027B0A7D19FE57FB9 /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		80AD1F7D41A7E2C3799DCC2F /* ConversationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewModel.swift; sourceTree = "<group>"; };
+		A645A07D3577BBCB4FCAB357 /* Pods-TalkToFelix-TalkToFelixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToFelix-TalkToFelixUITests.release.xcconfig"; path = "Target Support Files/Pods-TalkToFelix-TalkToFelixUITests/Pods-TalkToFelix-TalkToFelixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C821CB1EB0D0B5B63CE32D3A /* Pods-TalkToFelixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToFelixTests.debug.xcconfig"; path = "Target Support Files/Pods-TalkToFelixTests/Pods-TalkToFelixTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F620632FDCFB03D2D2DDB43E /* Pods_TalkToFelix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11E769357ACD256D9F9A6A3 /* Pods_TalkToFelixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A27D396D645966236475C50 /* Pods_TalkToFelix_TalkToFelixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +102,8 @@
 				73E0C27826C30B09007105C7 /* TalkToFelixTests */,
 				73E0C28326C30B09007105C7 /* TalkToFelixUITests */,
 				73E0C26526C30B06007105C7 /* Products */,
+				9FE533C752489B712F72EA0F /* Pods */,
+				947805C47CD36818C336C0A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +120,11 @@
 		73E0C26626C30B06007105C7 /* TalkToFelix */ = {
 			isa = PBXGroup;
 			children = (
+				73E0C2A426CC4DFC007105C7 /* GoogleService-Info.plist */,
+				73E0C29726C30B2B007105C7 /* Views */,
+				73E0C29626C30B25007105C7 /* ViewModels */,
+				73E0C29526C30B1E007105C7 /* Models */,
 				73E0C26726C30B06007105C7 /* TalkToFelixApp.swift */,
-				73E0C26926C30B06007105C7 /* ContentView.swift */,
 				73E0C26B26C30B09007105C7 /* Assets.xcassets */,
 				73E0C27026C30B09007105C7 /* Info.plist */,
 				73E0C26D26C30B09007105C7 /* Preview Content */,
@@ -130,6 +158,54 @@
 			path = TalkToFelixUITests;
 			sourceTree = "<group>";
 		};
+		73E0C29526C30B1E007105C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80AD1D2027B0A7D19FE57FB9 /* Conversation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		73E0C29626C30B25007105C7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				80AD1F7D41A7E2C3799DCC2F /* ConversationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		73E0C29726C30B2B007105C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73E0C26926C30B06007105C7 /* ConversationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		947805C47CD36818C336C0A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E20B416895089925F2CB117 /* Pods_TalkToFelix.framework */,
+				3E1840C31A4D6C90B997D509 /* Pods_TalkToFelix_TalkToFelixUITests.framework */,
+				0A73A34C7A2E8856D6082FE3 /* Pods_TalkToFelixTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FE533C752489B712F72EA0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66BB5208B21344143F4B71D6 /* Pods-TalkToFelix.debug.xcconfig */,
+				523990E0D854B641F2539CA5 /* Pods-TalkToFelix.release.xcconfig */,
+				4C5FEB54389817B442F3962F /* Pods-TalkToFelix-TalkToFelixUITests.debug.xcconfig */,
+				A645A07D3577BBCB4FCAB357 /* Pods-TalkToFelix-TalkToFelixUITests.release.xcconfig */,
+				C821CB1EB0D0B5B63CE32D3A /* Pods-TalkToFelixTests.debug.xcconfig */,
+				3C6CA291D14D1B769A112454 /* Pods-TalkToFelixTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E0C28926C30B09007105C7 /* Build configuration list for PBXNativeTarget "TalkToFelix" */;
 			buildPhases = (
+				23EE7F431DEEBB93A6B99FA1 /* [CP] Check Pods Manifest.lock */,
 				73E0C26026C30B06007105C7 /* Sources */,
 				73E0C26126C30B06007105C7 /* Frameworks */,
 				73E0C26226C30B06007105C7 /* Resources */,
+				DF668408C4EFFE788AD960F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E0C28C26C30B09007105C7 /* Build configuration list for PBXNativeTarget "TalkToFelixTests" */;
 			buildPhases = (
+				1E48BEC4E0A7F64C042E5672 /* [CP] Check Pods Manifest.lock */,
 				73E0C27126C30B09007105C7 /* Sources */,
 				73E0C27226C30B09007105C7 /* Frameworks */,
 				73E0C27326C30B09007105C7 /* Resources */,
@@ -172,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E0C28F26C30B09007105C7 /* Build configuration list for PBXNativeTarget "TalkToFelixUITests" */;
 			buildPhases = (
+				3D51B86BE32D31FA9A62F3A3 /* [CP] Check Pods Manifest.lock */,
 				73E0C27C26C30B09007105C7 /* Sources */,
 				73E0C27D26C30B09007105C7 /* Frameworks */,
 				73E0C27E26C30B09007105C7 /* Resources */,
+				AD5CCB48AE20E28E38D0ED1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +316,7 @@
 			files = (
 				73E0C26F26C30B09007105C7 /* Preview Assets.xcassets in Resources */,
 				73E0C26C26C30B09007105C7 /* Assets.xcassets in Resources */,
+				73E0C2A526CC4DFC007105C7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E0C2A626CC4DFC007105C7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,18 +332,124 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E0C2A726CC4DFC007105C7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E48BEC4E0A7F64C042E5672 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkToFelixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23EE7F431DEEBB93A6B99FA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkToFelix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D51B86BE32D31FA9A62F3A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkToFelix-TalkToFelixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5CCB48AE20E28E38D0ED1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToFelix-TalkToFelixUITests/Pods-TalkToFelix-TalkToFelixUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToFelix-TalkToFelixUITests/Pods-TalkToFelix-TalkToFelixUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalkToFelix-TalkToFelixUITests/Pods-TalkToFelix-TalkToFelixUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF668408C4EFFE788AD960F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToFelix/Pods-TalkToFelix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToFelix/Pods-TalkToFelix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalkToFelix/Pods-TalkToFelix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		73E0C26026C30B06007105C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73E0C26A26C30B06007105C7 /* ContentView.swift in Sources */,
+				73E0C26A26C30B06007105C7 /* ConversationView.swift in Sources */,
 				73E0C26826C30B06007105C7 /* TalkToFelixApp.swift in Sources */,
+				80AD1E5573E186008A8539FB /* ConversationViewModel.swift in Sources */,
+				80AD114FF9D79B08AB5D722E /* Conversation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +603,7 @@
 		};
 		73E0C28A26C30B09007105C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BB5208B21344143F4B71D6 /* Pods-TalkToFelix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +626,7 @@
 		};
 		73E0C28B26C30B09007105C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523990E0D854B641F2539CA5 /* Pods-TalkToFelix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +649,7 @@
 		};
 		73E0C28D26C30B09007105C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C821CB1EB0D0B5B63CE32D3A /* Pods-TalkToFelixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +672,7 @@
 		};
 		73E0C28E26C30B09007105C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6CA291D14D1B769A112454 /* Pods-TalkToFelixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +695,7 @@
 		};
 		73E0C29026C30B09007105C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5FEB54389817B442F3962F /* Pods-TalkToFelix-TalkToFelixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +716,7 @@
 		};
 		73E0C29126C30B09007105C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A645A07D3577BBCB4FCAB357 /* Pods-TalkToFelix-TalkToFelixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

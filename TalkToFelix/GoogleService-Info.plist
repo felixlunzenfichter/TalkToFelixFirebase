@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>187536502215-s6q5asmvol58t1umioohm9n5co9h05lb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.187536502215-s6q5asmvol58t1umioohm9n5co9h05lb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWoe1wwce_T7eTg5fT8YPZ4SrZvnittE0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>187536502215</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.connect.TalkToFelix</string>
+	<key>PROJECT_ID</key>
+	<string>talktofelix-1ae0e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>talktofelix-1ae0e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:187536502215:ios:cc47b6013da86117863de2</string>
+</dict>
+</plist>

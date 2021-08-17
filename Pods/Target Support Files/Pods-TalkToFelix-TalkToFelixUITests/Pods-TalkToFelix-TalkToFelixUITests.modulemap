@@ -1,0 +1,6 @@
+framework module Pods_TalkToFelix_TalkToFelixUITests {
+  umbrella header "Pods-TalkToFelix-TalkToFelixUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
